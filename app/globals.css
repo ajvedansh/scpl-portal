@@ -341,8 +341,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 /* --- Login hero panel (right) --- */
 .login-hero {
   position: relative; z-index: 1;
-  padding: 48px 56px 48px 32px;
-  display: flex; flex-direction: column; justify-content: center; gap: 28px;
+  padding: 22px 48px 22px 28px;
+  display: flex; flex-direction: column; justify-content: center; gap: 13px;
   animation: heroDrift .7s .1s cubic-bezier(.22,.68,0,1) both;
 }
 @keyframes heroDrift {
@@ -351,70 +351,70 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 
 .badge-irctc {
-  align-self: flex-start; display: flex; align-items: center; gap: 8px;
-  padding: 8px 18px; border-radius: 999px;
+  align-self: flex-start; display: flex; align-items: center; gap: 7px;
+  padding: 6px 14px; border-radius: 999px;
   background: rgba(255,255,255,.1);
   border: 1px solid rgba(255,255,255,.2);
   backdrop-filter: blur(8px);
-  font-size: 13px; font-weight: 700; color: #fff;
+  font-size: 12px; font-weight: 700; color: #fff;
 }
 .badge-irctc svg { color: var(--orange-300); }
 
-.hero-copy { display: flex; flex-direction: column; gap: 14px; }
+.hero-copy { display: flex; flex-direction: column; gap: 8px; }
 .hero-copy h2 {
-  font-size: 60px; line-height: 1.03; font-weight: 800; letter-spacing: -.03em;
+  font-size: 44px; line-height: 1.05; font-weight: 800; letter-spacing: -.03em;
   color: #fff;
 }
 .hero-copy h2 span  { display: block; }
 .hero-copy h2 .accent { color: var(--orange-300); }
-.hero-copy p { max-width: 520px; font-size: 17px; line-height: 1.6; color: rgba(255,255,255,.75); }
+.hero-copy p { max-width: 520px; font-size: 14px; line-height: 1.55; color: rgba(255,255,255,.75); }
 .hero-copy p strong { color: #fff; }
 
-.hero-art { width: 100%; max-width: 640px; height: auto; }
+.hero-art { width: 100%; max-width: 560px; max-height: 165px; height: auto; object-fit: contain; }
 
 /* Hero stats row */
 .hero-stats {
-  display: flex; flex-wrap: wrap; gap: 10px;
+  display: flex; flex-wrap: wrap; gap: 8px;
 }
 .hero-stat {
-  display: flex; flex-direction: column; gap: 2px;
-  padding: 14px 20px;
+  display: flex; flex-direction: column; gap: 1px;
+  padding: 10px 16px;
   background: rgba(255,255,255,.08);
   border: 1px solid rgba(255,255,255,.14);
-  border-radius: 14px;
+  border-radius: 12px;
   backdrop-filter: blur(8px);
-  flex: 1 1 100px;
+  flex: 1 1 90px;
 }
-.hero-stat strong { font-size: 22px; font-weight: 800; color: #fff; letter-spacing: -.02em; }
-.hero-stat small  { font-size: 12px; font-weight: 600; color: rgba(255,255,255,.6); }
+.hero-stat strong { font-size: 18px; font-weight: 800; color: #fff; letter-spacing: -.02em; }
+.hero-stat small  { font-size: 11px; font-weight: 600; color: rgba(255,255,255,.6); }
 
-.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chips li {
-  display: flex; align-items: center; gap: 10px;
-  padding: 10px 18px; border-radius: 12px;
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 14px; border-radius: 10px;
   background: rgba(255,255,255,.08);
   border: 1px solid rgba(255,255,255,.12);
-  font-size: 13px; font-weight: 700; color: #fff;
+  font-size: 12px; font-weight: 700; color: #fff;
   backdrop-filter: blur(6px);
 }
 .chips svg { color: var(--orange-300); }
 
 .news {
-  display: flex; align-items: flex-start; gap: 14px;
-  padding: 16px 20px; border-radius: 16px;
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 11px 16px; border-radius: 14px;
   background: rgba(255,183,107,.1);
   border: 1px solid rgba(255,183,107,.22);
 }
 .news-icon {
   flex: none; display: grid; place-items: center;
-  width: 38px; height: 38px; border-radius: 10px;
+  width: 32px; height: 32px; border-radius: 9px;
   background: var(--orange-500); color: #fff;
 }
-.news h3 { font-size: 14px; font-weight: 800; color: #fff; }
-.news p  { margin-top: 4px; font-size: 13px; line-height: 1.55; color: rgba(255,255,255,.7); font-weight: 500; }
+.news h3 { font-size: 13px; font-weight: 800; color: #fff; }
+.news p  { margin-top: 3px; font-size: 12px; line-height: 1.5; color: rgba(255,255,255,.7); font-weight: 500; }
 
-.contact { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 13px; color: rgba(255,255,255,.6); }
-.contact li { display: flex; align-items: center; gap: 8px; }
+.contact { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 12px; color: rgba(255,255,255,.6); }
+.contact li { display: flex; align-items: center; gap: 7px; }
 
 /* ============================================================
    DASHBOARD SHELL
